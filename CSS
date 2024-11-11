@@ -1,0 +1,81 @@
+.form-button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-button:hover {
+    background-color: #0056b3;
+}
+
+/* Sección de la tabla de usuarios */
+.user-table-section {
+    width: 100%;
+    max-width: 800px;
+}
+
+.user-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.user-table th, .user-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.user-table th {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.user-table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Ocultar la contraseña */
+.password-cell {
+    font-style: italic;
+    color: #aaa;
+}
+
+/* Botones de acción en la tabla */
+.action-button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+}
+
+.edit-button {
+    width: 77px;
+    height: 27px;
+    background-color: #28a745;
+}
+
+.edit-button:hover {
+    background-color: #218838;
+}
+
+.delete-button {
+    width: 77px;
+    height: 27px;
+    padding-top: 5px;
+    background-color: #dc3545;
+}
+
+.delete-button:hover {
+    background-color: #c82333;
+}
